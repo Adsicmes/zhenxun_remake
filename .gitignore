@@ -137,3 +137,6 @@ cython_debug/
 
 # others
 .idea/
+framework_plugins/datastore/migrations/
+cache/
+configs/
