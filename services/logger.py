@@ -1,4 +1,4 @@
-from loguru import logger
+from nonebot import logger
 from nonebot.log import default_format, default_filter
 
 

@@ -306,5 +306,5 @@ def get_plugin_data(name: Optional[str] = None) -> PluginData:
 _ProviderClass = resolve_dot_notation(
     plugin_config.datastore_config_provider,
     default_attr="Config",
-    default_prefix="basic_plugins.datastore.providers.",
+    default_prefix="framework_plugins.datastore.providers.",
 )
