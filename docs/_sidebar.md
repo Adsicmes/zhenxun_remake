@@ -1,5 +1,6 @@
 * [主页](/)
 * [环境准备](docs/环境准备.md)
+* [插件开发](docs/插件开发/_sidebar.md)
 * [依赖注入与重载相关](docs/依赖注入与重载相关.md)
 * [部分编写规范](docs/部分编写规范.md)
 * [关于SqlAlchemy](docs/关于SqlAlchemy.md)
