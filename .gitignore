@@ -105,9 +105,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
-env/
 venv/
 ENV/
 env.bak/
@@ -136,3 +134,11 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# others
+.idea/
+framework_plugins/datastore/migrations/
+cache/
+configs/
+data/
+go-cqhttp/
