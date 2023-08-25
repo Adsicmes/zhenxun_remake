@@ -140,3 +140,5 @@ cython_debug/
 framework_plugins/datastore/migrations/
 cache/
 configs/
+data/
+go-cqhttp/
