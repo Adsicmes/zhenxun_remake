@@ -5,8 +5,8 @@ from nonebot.adapters.onebot.v11 import Adapter as OnebotV11Adapter
 from services.logger import logger_configure
 
 
-def init(onebot=True):
-    nonebot.init()
+def init(env, onebot=True):
+    nonebot.init(_env_file=env)
 
     logger_configure()
     driver = nonebot.get_driver()
@@ -19,7 +19,7 @@ def init(onebot=True):
 
 
 def main(args: argparse.Namespace):
-    init(args.enable_onebot)
+    init(".env.dev", args.enable_onebot)
     nonebot.run()
 
 
